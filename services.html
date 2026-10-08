@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Services — Seventh Sense Software</title>
+<meta name="description" content="A senior engineering team for finance: trading systems, exchanges, digital assets, AI agents, compliance and tax platforms. Scoped to the problem. Prices on request.">
+<link rel="canonical" href="https://7s.software/services">
+<meta name="theme-color" content="#171B21">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Seventh Sense Software">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/assets/StyreneA-Light-CDtqHJvh.otf" as="font" type="font/otf" crossorigin>
+<script>
+/* Before first paint, and deliberately not in the module: a returning
+   visitor who chose deep space must not see a milk page first, and the
+   intro must not flash the page it is about to reveal. If the module
+   never runs, .js and .intro come off again so nothing stays hidden. */
+(function () {
+  var r = document.documentElement
+  try { if (localStorage.getItem('ss-theme') === 'dark') r.dataset.theme = 'dark' } catch (e) {}
+  r.classList.add('js')
+  /* the home page opens with the intro: hold the chrome until the field
+     shows it. Never for reduced motion, a deep link, or ?static */
+  var home = /^\/(index(\.html)?)?$/.test(location.pathname)
+  if (home && !location.hash && !/[?&]static/.test(location.search) &&
+      !matchMedia('(prefers-reduced-motion: reduce)').matches) r.classList.add('intro')
+  /* arriving through the iris: hold the page until the field opens it */
+  try {
+    if (sessionStorage.getItem('ss-iris') === '1' && !r.classList.contains('intro')) r.classList.add('iris-in')
+    sessionStorage.removeItem('ss-iris')
+  } catch (e) {}
+  setTimeout(function () { r.classList.remove('iris-in') }, 2500)
+  setTimeout(function () { if (!r.dataset.booted) r.classList.remove('js', 'intro', 'iris-in') }, 4000)
+  setTimeout(function () { if (r.dataset.intro !== 'on') r.classList.remove('intro') }, 3500)
+})()
+</script>
+
+<meta property="og:title" content="Services — we build the systems finance runs on">
+<meta property="og:description" content="A senior engineering team across finance, software and AI. Trading, exchanges, digital assets, AI agents, compliance and tax. Prices on request.">
+<meta property="og:url" content="https://7s.software/services">
+<meta property="og:image" content="https://7s.software/og/services.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://7s.software/og/services.png">
+  <script type="module" crossorigin src="/assets/config-BfOEjthh.js"></script>
+  <script type="module" crossorigin src="/assets/main-DGKZsjqN.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-BysdLal7.css">
+</head>
+<body data-page="services">
+
+<canvas class="field" aria-hidden="true"></canvas>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <a class="brand" href="/" aria-label="Seventh Sense Software, home" data-ss-mask>
+    <svg class="brand__mark" viewBox="0 0 7 5" aria-hidden="true" shape-rendering="crispEdges"><path class="brand__lids" fill="currentColor" d="M2 0h3v1H2zM1 1h1v1H1zM5 1h1v1H5zM0 2h1v1H0zM6 2h1v1H6zM1 3h1v1H1zM5 3h1v1H5zM2 4h3v1H2z"/><rect class="brand__pupil" x="3" y="2" width="1" height="1" fill="currentColor"/></svg>
+    <span class="brand__name">Seventh Sense<span>Software</span></span>
+  </a>
+  <div class="top__actions" data-ss-mask>
+    <button class="palette-btn btn-bracket" type="button" aria-haspopup="dialog" aria-keyshortcuts="Meta+K Control+K /"><span class="br" aria-hidden="true">[</span><span class="palette-btn__k">⌘K</span><span class="sr-only">Command palette</span><span class="br" aria-hidden="true">]</span></button>
+    <a class="btn btn--small" href="/contact" data-ss-attract><span>Enquire</span><span class="btn__arrow" aria-hidden="true">→</span></a>
+    <button class="menu-btn btn-bracket" type="button" aria-expanded="false" aria-controls="menu"><span class="br" aria-hidden="true">[</span>Menu<span class="br" aria-hidden="true">]</span></button>
+    <a class="menu-fallback btn-bracket" href="#sitemap"><span class="br" aria-hidden="true">[</span>Menu<span class="br" aria-hidden="true">]</span></a>
+  </div>
+</header>
+
+<nav class="alt" aria-label="Sections on this page" data-ss-mask></nav>
+
+<div class="menu" id="menu" hidden>
+  <div class="menu__bar">
+    <a class="menu__home" href="/" data-page="home"><span aria-hidden="true">◇</span> Home</a>
+    <button class="menu__close btn-bracket" type="button"><span class="br" aria-hidden="true">[</span>Close<span class="br" aria-hidden="true">]</span></button>
+  </div>
+  <nav class="menu__wheel" aria-label="Site">
+    <ol class="menu__nodes">
+      <li><a href="/grace" data-page="grace"><span class="menu__dot" aria-hidden="true"></span><span class="menu__n">01</span><span class="menu__t">GRACE Trader</span><span class="menu__d">The AI-native terminal</span></a></li>
+      <li><a href="/case-base" data-page="case-base"><span class="menu__dot" aria-hidden="true"></span><span class="menu__n">02</span><span class="menu__t">Case Base</span><span class="menu__d">Crypto forensics</span></a></li>
+      <li><a href="/zeppelin" data-page="zeppelin"><span class="menu__dot" aria-hidden="true"></span><span class="menu__n">03</span><span class="menu__t">Zeppelin</span><span class="menu__d">Books and tax</span></a></li>
+      <li><a href="/services" data-page="services"><span class="menu__dot" aria-hidden="true"></span><span class="menu__n">04</span><span class="menu__t">Services</span><span class="menu__d">Prices on request</span></a></li>
+      <li><a href="/partners" data-page="partners"><span class="menu__dot" aria-hidden="true"></span><span class="menu__n">05</span><span class="menu__t">Partners</span><span class="menu__d">Build the network</span></a></li>
+      <li><a href="/about" data-page="about"><span class="menu__dot" aria-hidden="true"></span><span class="menu__n">06</span><span class="menu__t">About</span><span class="menu__d">Engineered perception</span></a></li>
+      <li><a href="/security" data-page="security"><span class="menu__dot" aria-hidden="true"></span><span class="menu__n">07</span><span class="menu__t">Security</span><span class="menu__d">Built for regulated money</span></a></li>
+    </ol>
+    <a class="menu__core" href="/contact" data-page="contact"><pre class="menu__eye" aria-hidden="true">--***--
+-*---*-
+*--*--*
+-*---*-
+--***--</pre><span class="menu__t">Start a brief</span><span class="menu__d">The centre of everything</span></a>
+  </nav>
+  <p class="menu__foot"><a href="mailto:hello@7s.software">hello@7s.software</a><span aria-hidden="true">·</span><span>Press ⌘K for commands</span></p>
+</div>
+
+<p class="hud" aria-hidden="true" data-ss-mask>Stratum <b data-hud="stratum">01</b> · Alt <b data-hud="alt">0000</b> <span class="hud__msg" data-hud="msg"></span></p>
+<p class="status" data-ss-mask><span class="status__dot" aria-hidden="true"></span>Booking new engagements</p>
+
+
+<main id="main">
+
+  <section id="overview" class="section page-hero" data-ss-state="services" data-ss-tone="dark" data-nav="Overview" data-ss-runes="we build what finance runs on">
+    <div class="wrap">
+      <p class="eyebrow">Services · Prices on request</p>
+      <h1 class="display-hero">We build the systems finance runs&nbsp;on.</h1>
+      <p class="lede">Seventh Sense is a senior engineering team across finance, software and AI. We design, build and harden the platforms where speed, correctness and trust decide who&nbsp;wins.</p>
+      <div class="actions">
+        <a class="btn" href="/contact?ref=services" data-ss-attract><span>Start a project brief</span><span class="btn__arrow" aria-hidden="true">→</span></a>
+        <a class="btn-bracket" href="#verticals"><span class="br" aria-hidden="true">[</span>What we build<span class="br" aria-hidden="true">]</span></a>
+      </div>
+    </div>
+      <div class="page-hero__mark" data-ss-mark aria-hidden="true"></div>
+  </section>
+
+  <section id="proof" class="section section--tight" data-ss-state="signal" data-ss-tone="dark" data-nav="Proof" aria-labelledby="proof-h" data-ss-runes="you are scrolling through the proof">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Proof by demonstration</p>
+        <h2 id="proof-h" class="display-xl">You’re scrolling through the&nbsp;proof.</h2>
+      </div>
+      <div class="longform">
+        <p>This page runs a real-time rendering engine, a live simulation and multi-script typography at sixty frames a second, in a browser, with every word still accessible. We hold client work to the same standard. The difference is that client work also has to clear an&nbsp;audit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="verticals" class="section" data-ss-state="lattice" data-ss-tone="dark" data-nav="Verticals" aria-labelledby="verticals-h" data-ss-runes="seven verticals">
+    <div class="wrap">
+      <p class="eyebrow">Seven verticals</p>
+      <h2 id="verticals-h" class="display-xl">If it moves money, we have built&nbsp;it.</h2>
+      <div class="grid grid--3">
+        <article class="card" data-ss-frame><p class="card__label">01</p><h3>Trading &amp; execution</h3><p>Terminals, OMS/EMS, broker bridges, algorithmic execution and risk engines. Built for low latency and for the day the market gaps and every assumption breaks at&nbsp;once.</p></article>
+        <article class="card" data-ss-frame><p class="card__label">02</p><h3>Market data &amp; quant infrastructure</h3><p>Tick capture, normalization, storage and research platforms. Backtesting that agrees with live trading, because both run on the same&nbsp;code.</p></article>
+        <article class="card" data-ss-frame><p class="card__label">03</p><h3>Exchanges, brokerage &amp; fintech</h3><p>Matching engines, wallets, ledgers, onboarding and reporting. Platforms that hold customer money and are engineered like&nbsp;it.</p></article>
+        <article class="card" data-ss-frame><p class="card__label">04</p><h3>Digital assets &amp; on-chain</h3><p>Custody integrations, smart-contract systems, indexers and chain analytics. We work at the protocol level and build products people can actually&nbsp;use.</p></article>
+        <article class="card" data-ss-frame><p class="card__label">05</p><h3>AI agents &amp; LLM systems</h3><p>Agents that act in financial workflows, with retrieval, tool use, evals and guardrails. Models that cite their sources and stay inside their&nbsp;permissions.</p></article>
+        <article class="card" data-ss-frame><p class="card__label">06</p><h3>Compliance, forensics &amp; RegTech</h3><p>Monitoring, investigations, case management and reporting. The engineering behind Case Base, applied to your&nbsp;obligations.</p></article>
+        <article class="card" data-ss-frame><p class="card__label">07</p><h3>Tax, accounting &amp; treasury</h3><p>Ledgers, reconciliation, tax engines and treasury automation. The engineering behind Zeppelin, applied to your&nbsp;books.</p></article>
+        <article class="card card--wide" data-ss-frame><p class="card__label">+ Interface</p><h3>Product design &amp; frontend</h3><p>Interfaces for dense data: terminals, dashboards and sites like this one. Designed and engineered by the same team, so nothing is lost between the mockup and the&nbsp;metal.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <div class="membrane" data-ss-state="membrane" data-ss-tone="dark" aria-hidden="true" data-ss-runes="beyond the sixth sense"><span>01 ─┼─ 02 ─┼─ 03 ─┼─ 04 ─┼─ 05 ─┼─ 06 ─┼─ 07 ◆ ｱｲｳ ᚠᚢᚦ 𓂀 ䷀ 🜁🜂🜃🜄 ☉☽ ⣿⣷⣧ ∴∞ 01 ─┼─ 02 ─┼─ 03 ─┼─ 04 ─┼─ 05 ─┼─ 06 ─┼─ 07 ◆ ｱｲｳ ᚠᚢᚦ 𓂀 ䷀</span><span>☿♀♂♃♄ ⊕ ─┼─ ◇◈○◎ ─┼─ λΔΩΨφ ─┼─ ｶｷｸ ᚲᚷ 𓋹 ䷁ ⠁⠃⠇ ☿♀♂♃♄ ⊕ ─┼─ ◇◈○◎ ─┼─ λΔΩΨφ ─┼─ ｶｷｸ ᚲᚷ 𓋹 ䷁ ⠁⠃⠇</span><span>◆ 07 ─┼─ 06 ─┼─ 05 ─┼─ 04 ─┼─ 03 ─┼─ 02 ─┼─ 01 ◆ 🜁 ☉ ⣿ 𓂀 ◆ 07 ─┼─ 06 ─┼─ 05 ─┼─ 04 ─┼─ 03 ─┼─ 02 ─┼─ 01 ◆ 🜁 ☉ ⣿ 𓂀</span></div>
+
+  <section id="engage" class="section" data-ss-state="archive" data-ss-tone="dark" data-nav="Engagements" aria-labelledby="engage-h" data-ss-runes="build embed rescue research">
+    <div class="wrap">
+      <p class="eyebrow">Engagement models</p>
+      <h2 id="engage-h" class="display-xl">Four ways to work with&nbsp;us.</h2>
+      <div class="grid grid--4">
+        <article class="card" data-ss-frame><p class="card__label">Build</p><h3>Delivered.</h3><p>A fixed-scope product or platform, delivered by a dedicated senior team with clear milestones and a system you own outright at the&nbsp;end.</p></article>
+        <article class="card" data-ss-frame><p class="card__label">Embed</p><h3>Alongside you.</h3><p>Our engineers join your team, ship inside your process and raise the bar for everyone around&nbsp;them.</p></article>
+        <article class="card" data-ss-frame><p class="card__label">Audit &amp; rescue</p><h3>Stabilized.</h3><p>Architecture, security and performance reviews. When a critical system is failing, we stabilize it first and then fix the&nbsp;cause.</p></article>
+        <article class="card" data-ss-frame><p class="card__label">Retained R&amp;D</p><h3>On standby.</h3><p>A standing lab for research-heavy problems: models, strategies and prototypes, with a direct line to the people building&nbsp;them.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="section" data-ss-state="ledger" data-ss-tone="dark" data-nav="Process" aria-labelledby="process-h" data-ss-runes="the seven step ascent">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Process</p>
+        <h2 id="process-h" class="display-xl">The seven-step&nbsp;ascent.</h2>
+      </div>
+      <ol class="steps steps--flush">
+        <li><span class="steps__n">01</span><div><h3>Signal.</h3><p>A conversation about the problem, under NDA if you&nbsp;prefer.</p></div></li>
+        <li><span class="steps__n">02</span><div><h3>Scope.</h3><p>A written brief with the risks, the options and a&nbsp;price.</p></div></li>
+        <li><span class="steps__n">03</span><div><h3>Architect.</h3><p>Designs and decisions, reviewed with your team before anything is&nbsp;built.</p></div></li>
+        <li><span class="steps__n">04</span><div><h3>Build.</h3><p>Working software every week, demoed by the people who wrote&nbsp;it.</p></div></li>
+        <li><span class="steps__n">05</span><div><h3>Harden.</h3><p>Tests, load, security review and failure&nbsp;drills.</p></div></li>
+        <li><span class="steps__n">06</span><div><h3>Launch.</h3><p>A controlled rollout with monitoring in place on the first&nbsp;day.</p></div></li>
+        <li><span class="steps__n">07</span><div><h3>Evolve.</h3><p>Support, iteration and a handover your team can run&nbsp;with.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="standards" class="section" data-ss-state="orbit" data-ss-tone="dark" data-nav="Standards" aria-labelledby="standards-h" data-ss-runes="you own everything">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Standards</p>
+        <h2 id="standards-h" class="display-xl">What every client&nbsp;gets.</h2>
+      </div>
+      <div>
+        <ul class="ticks ticks--flush">
+          <li>Senior engineers only. The people you meet are the people who&nbsp;build.</li>
+          <li>You own the code, the IP and the&nbsp;infrastructure.</li>
+          <li>NDAs by default. Client work is never shown without&nbsp;permission.</li>
+          <li>Security reviewed at every milestone. <a href="/security">See our security standards</a>.</li>
+          <li>AI used where it measurably helps, and never on your data without&nbsp;consent.</li>
+        </ul>
+        <h3 class="display-l gap-top">Priced to the&nbsp;problem.</h3>
+        <p class="prose">We don’t publish rates, because no two systems carry the same risk. Every engagement starts with a written scope and a fixed price or a capped retainer. You’ll know the cost before we write a line of&nbsp;code.</p>
+        <a class="link-arrow" href="/contact?ref=services">Request a proposal <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="faq">
+        <details><summary>How quickly can you start?</summary><p>Most engagements start within two to four weeks of a signed scope. Audits and rescues can start sooner, because a failing system can’t&nbsp;wait. <span class="need">[NEED: confirm]</span></p></details>
+        <details><summary>Do you work with startups?</summary><p>Yes, when the problem is hard and the money is real. We work with funded startups, trading firms, exchanges, institutions and public&nbsp;agencies.</p></details>
+        <details><summary>Can you work with our existing team and stack?</summary><p>Yes. Embedding is one of our engagement models, and we’ve shipped in most modern stacks. We’ll recommend changes only when they pay for&nbsp;themselves.</p></details>
+        <details><summary>Who owns the work?</summary><p>You do. Code, IP and infrastructure transfer on payment, with documentation your team can run&nbsp;with.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="brief" class="section cta" data-ss-state="ascension" data-ss-tone="dark" data-nav="Brief" aria-labelledby="brief-h" data-ss-runes="tell us what is at stake">
+    <div class="wrap">
+      <p class="eyebrow">Start a project</p>
+      <h2 id="brief-h" class="display-xl">Tell us what’s at&nbsp;stake.</h2>
+      <p class="lede">A senior engineer replies within one business&nbsp;day.</p>
+      <div class="actions">
+        <a class="btn" href="/contact?ref=services" data-ss-attract><span>Start a project brief</span><span class="btn__arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot" data-ss-state="void" data-ss-tone="dark" id="sitemap" data-ss-runes="the seventh sense was always here">
+  <div class="wrap">
+    <p class="wordmark" aria-hidden="true">Seventh Sense</p>
+    <nav class="foot__cols" aria-label="Site map">
+      <div class="foot__brand">
+        <p class="foot__tag">AI-native financial software, and the senior team that builds&nbsp;it.</p>
+        <a class="btn btn--small" href="/contact" data-ss-attract><span>Start a project</span><span class="btn__arrow" aria-hidden="true">→</span></a>
+      </div>
+      <div>
+        <h2 class="foot__h">Products</h2>
+        <ul><li><a href="/grace">GRACE Trader</a></li><li><a href="/case-base">Case Base</a></li><li><a href="/zeppelin">Zeppelin</a></li></ul>
+      </div>
+      <div>
+        <h2 class="foot__h">Company</h2>
+        <ul><li><a href="/services">Services</a></li><li><a href="/partners">Partners</a></li><li><a href="/about">About</a></li><li><a href="/security">Security &amp; Trust</a></li></ul>
+      </div>
+      <div>
+        <h2 class="foot__h">Contact</h2>
+        <ul><li><a href="/contact">Start a brief</a></li><li><a href="mailto:hello@7s.software">hello@7s.software</a></li><li><a href="mailto:security@7s.software">security@7s.software</a></li></ul>
+      </div>
+      <div>
+        <h2 class="foot__h">Legal</h2>
+        <ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li></ul>
+      </div>
+    </nav>
+    <div class="foot__base">
+      <span>© 2026 Seventh Sense Software. All systems nominal.</span>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
