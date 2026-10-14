@@ -1,0 +1,15 @@
+# Seventh Sense Software
+
+> AI-native financial software, and a senior engineering team for finance. 7s.software
+
+## Products
+- [GRACE Trader](https://7s.software/grace): an AI-native trading terminal with pro charting, multi-broker execution, natural-language strategies and an AI co-pilot.
+- [Case Base](https://7s.software/case-base): crypto forensics with cross-chain tracing, OCR, AI case review, investigative skills and subpoena drafting.
+- [Zeppelin](https://7s.software/zeppelin): AI bookkeeping and tax with continuous reconciliation and a live tax position.
+
+## Company
+- [Services](https://7s.software/services): trading, market data, exchanges, digital assets, AI agents, compliance and tax engineering. Prices on request.
+- [Partners](https://7s.software/partners)
+- [About](https://7s.software/about)
+- [Security & Trust](https://7s.software/security)
+- [Contact](https://7s.software/contact)
