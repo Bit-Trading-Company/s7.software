@@ -1,0 +1,15 @@
+# Seventh Sense Software
+
+> Seventh Sense Software is building developer tools that help businesses use AI agents safely; the first product is in development. We also take on software engineering work for finance. We don't hold customer funds or provide financial, legal or investment advice. 7s.software
+
+## Internal tools (not offered for sale or licence)
+- [GRACE Trader](https://7s.software/grace): an internal trading terminal, in development.
+- [Case Base](https://7s.software/case-base): an internal tool in beta, available on request.
+- [Zeppelin](https://7s.software/zeppelin): an internal, local-first tax tool, in development.
+
+## Company
+- [Services](https://7s.software/services): software engineering for finance and AI agents: trading systems, market data, fintech software, compliance and tax tools. Prices on request.
+- [Partners](https://7s.software/partners)
+- [About](https://7s.software/about)
+- [Security & Trust](https://7s.software/security)
+- [Contact](https://7s.software/contact)
